@@ -11,10 +11,10 @@ further.
 
 ## Requirements
 
-* [PHPFOG](http://phpfog.com) account
-* [FOURSQUARE](http://www.foursquare.com) account
-* [Tropo](http://www.tropo.com) account
-* [YII](http://www.yiiframework.com) account
+* [PHPFOG](http://phpfog.com) Account
+* [FOURSQUARE](http://www.foursquare.com) Account & Application
+* [Tropo](http://www.tropo.com) Account
+* [YII](http://www.yiiframework.com) MVC Framework
 
 ## Setup
 
