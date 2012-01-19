@@ -28,7 +28,7 @@ with your FourSquare App so on to FourSquare
 
 Setup a new application on FourSquare, this application will be used to 
 retrieve your friends latest checkin information. If you don't have one yet you 
-can set up a FourSquare developers account at [Here](https://developer.foursquare.com/)
+can set up a FourSquare developers account [Here](https://developer.foursquare.com/)
 
 When setting up the application you will be asked for a "Download/welcome URL" 
 enter http://XXXXX.phpfogapp.com/ and for a "Call back URL" enter 
@@ -38,7 +38,7 @@ corresponding CNAME value you used on PHPFog.
 Now for a code update, in config/main.php you need to update the lines:
 
 'clientId'=>'FOURSQUARECLIENTIDGOESHERE',
-'clientSecret'=>'FOURSQUARECLIENTSECRETGOESHERE'
+'clientSecret'=>'FOURSQUARECLIENTSECRETGOESHERE',
 
 with the clientID and clientSecret from your FourSquare app.
 
