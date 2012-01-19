@@ -38,6 +38,7 @@ corresponding CNAME value you used on PHPFog.
 Now for a code update, in config/main.php you need to update the lines:
 
 'clientId'=>'FOURSQUARECLIENTIDGOESHERE',
+
 'clientSecret'=>'FOURSQUARECLIENTSECRETGOESHERE',
 
 with the clientID and clientSecret from your FourSquare app.
