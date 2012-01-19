@@ -32,7 +32,7 @@ can set up a FourSquare developers account [Here](https://developer.foursquare.c
 
 When setting up the application you will be asked for a "Download/welcome URL" 
 enter http://XXXXX.phpfogapp.com/ and for a "Call back URL" enter 
-http://tropodemo.phpfogapp.com/index.php?r=site/auth replace the XXXXX with the 
+http://XXXXX.phpfogapp.com/index.php?r=site/auth replace the XXXXX with the 
 corresponding CNAME value you used on PHPFog.
 
 Now for a code update, in config/main.php you need to update the lines:
