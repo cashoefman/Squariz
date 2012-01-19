@@ -6,7 +6,7 @@ the voice call handling and speech recognition and the FourSquare API to locate
 your friends. It's build using the YII MVC Framework!
 
 Please note that this app was written in only a few hours as a quick demo, so 
-there may be bugs, and it's just a starting point that could be developed  
+there may be bugs, and it's just a starting point that could be developed 
 further.
 
 ## Requirements
