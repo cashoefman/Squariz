@@ -62,4 +62,4 @@ That should be about it, call your app and see if it works!
 
 ## Copyright
 
-(c) 2010 Cas Hoefman; Licensed under the MIT license, see `LICENSE`
+(c) 2012 Cas Hoefman; Licensed under the MIT license, see `LICENSE`
