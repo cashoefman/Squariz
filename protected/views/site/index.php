@@ -1,5 +1,15 @@
-<h1>Welcome</h1>
+<?php $this->pageHeader = 'Make the real world easier to use <br /><small>Keep up with friends, Discover where your friends are with a phone call or an SMS</small>' ?>
 
-<p><?php echo CHtml::link('Click here', array('auth'))?> to bind application to a foursquare user.</p>
+<div style="text-align: center;">
+	<?php if(!empty($message)):?>
+	<div class="alert-message warning">
+        <p><?php echo $message?></p>
+    </div>
+    <?php endif;?>
 
-<p>And then you can call <a href="skype:+99000936999617XXXX?call">+99000936999617XXXX</a> on Skype.</p>
+	<img src="/resources/signup.png" alt="" />
+	
+	<br />
+	
+	<?php echo CHtml::link('Signup', array('site/auth'), array('class'=>'btn large primary'))?>
+</div>

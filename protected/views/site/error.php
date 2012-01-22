@@ -1,3 +1,5 @@
-<h1>Error</h1>
+<?php $this->pageHeader = 'Error' ?>
 
-<p><?php echo $message?></p>
+<div class="alert-message error">
+	<p><?php echo $message?></p>
+</div>

@@ -5,7 +5,7 @@
 <rule id="MYRULE" scope="public">
 	<one-of>
 		<?php foreach($friends as $friend):?>
-		<item><?php echo $this->sanitize($friend->firstName . ' '.$friend->lastName)?></item>
+		<item><?php echo $this->sanitize($friend->firstName . ' '.$friend->lastName)?><tag><?php echo $friend->id?></tag></item>
 		<?php endforeach;?>
 	</one-of>
 </rule>
